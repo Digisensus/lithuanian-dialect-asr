@@ -1,0 +1,1030 @@
+{
+ "scorer": "score.py 1.3 (2026-10-04)",
+ "n_boot": 10000,
+ "table": {
+  "B/parakeet-tdt-0.6b-v3": {
+   "dial.test": {
+    "dialect": 71.66749089601223,
+    "standard": 69.09446166284867,
+    "either": 68.1517780874882
+   },
+   "dial.seen": {
+    "dialect": 73.46267675106873,
+    "either": 69.10007672914611
+   },
+   "phone.test": 42.526609292474326,
+   "fleurs.lt.test": 22.09967320261438,
+   "cv.lt.test": 16.51764137264379
+  },
+  "B/whisper-large-v3": {
+   "dial.test": {
+    "dialect": 59.362496066178124,
+    "standard": 54.57036338319184,
+    "either": 53.149305399451514
+   },
+   "dial.seen": {
+    "dialect": 59.0704812013592,
+    "either": 51.77025101392086
+   },
+   "phone.test": 27.432370841041315,
+   "fleurs.lt.test": 23.167600373482728,
+   "cv.lt.test": 28.087240212663122
+  },
+  "D80.dial/s1": {
+   "dial.test": {
+    "dialect": 27.177089421391,
+    "standard": 35.31869020347662,
+    "either": 24.432405700669875
+   },
+   "dial.seen": {
+    "dialect": 27.90748657239943,
+    "either": 25.243889071577332
+   },
+   "phone.test": 28.201828467251133,
+   "fleurs.lt.test": 41.53828197945845,
+   "cv.lt.test": 39.74444175930401
+  },
+  "D80.std/s1": {
+   "dial.test": {
+    "dialect": 35.15488018702513,
+    "standard": 22.721555944841217,
+    "either": 21.91251180146563
+   },
+   "dial.seen": {
+    "dialect": 37.76170119478242,
+    "either": 22.67894333004494
+   },
+   "phone.test": 19.62519102388804,
+   "fleurs.lt.test": 30.339635854341736,
+   "cv.lt.test": 26.712783953600773
+  },
+  "S+D12.dial/s1": {
+   "dial.test": {
+    "dialect": 38.07939576495976,
+    "standard": 38.880653999910166,
+    "either": 33.29586836308052
+   },
+   "dial.seen": {
+    "dialect": 40.98432533157953,
+    "either": 34.791187109503454
+   },
+   "phone.test": 10.611544545430172,
+   "fleurs.lt.test": 24.317226890756302,
+   "cv.lt.test": 30.352827452875786
+  },
+  "S+D25.dial/s1": {
+   "dial.test": {
+    "dialect": 34.77273749044643,
+    "standard": 37.29281767955801,
+    "either": 30.28818055118464
+   },
+   "dial.seen": {
+    "dialect": 38.20015345829223,
+    "either": 32.587964485366655
+   },
+   "phone.test": 10.611544545430172,
+   "fleurs.lt.test": 21.889589169000935,
+   "cv.lt.test": 24.241783470275497
+  },
+  "S+D25.std/s1": {
+   "dial.test": {
+    "dialect": 38.31092928112215,
+    "standard": 29.138031711808832,
+    "either": 27.909904239536033
+   },
+   "dial.seen": {
+    "dialect": 41.718732872958455,
+    "either": 29.672256933026418
+   },
+   "phone.test": 10.485535805249471,
+   "fleurs.lt.test": 24.218020541549954,
+   "cv.lt.test": 30.500845819236346
+  },
+  "S+D50.dial/s1": {
+   "dial.test": {
+    "dialect": 32.76761228251585,
+    "standard": 37.092934465256256,
+    "either": 28.959672706019873
+   },
+   "dial.seen": {
+    "dialect": 35.81058862216376,
+    "either": 31.316452921188205
+   },
+   "phone.test": 10.485535805249471,
+   "fleurs.lt.test": 23.220121381886088,
+   "cv.lt.test": 29.32274045432576
+  },
+  "S+D50.std/s1": {
+   "dial.test": {
+    "dialect": 37.6657824933687,
+    "standard": 27.46934375421102,
+    "either": 26.39482084251225
+   },
+   "dial.seen": {
+    "dialect": 40.9295187986408,
+    "either": 27.940370492162664
+   },
+   "phone.test": 10.456044397973136,
+   "fleurs.lt.test": 20.348972922502334,
+   "cv.lt.test": 18.988641855969068
+  },
+  "S+D80-A.std/s1": {
+   "dial.test": {
+    "dialect": 38.00296722564402,
+    "standard": 27.94996182006019,
+    "either": 26.916333228431416
+   },
+   "dial.seen": {
+    "dialect": 41.400854981913845,
+    "either": 28.685739340129345
+   },
+   "phone.test": 10.525751360626291,
+   "fleurs.lt.test": 21.376050420168067,
+   "cv.lt.test": 20.332890285161913
+  },
+  "S+D80-D.std/s1": {
+   "dial.test": {
+    "dialect": 38.18729487928787,
+    "standard": 28.098189821677224,
+    "either": 27.093917187429753
+   },
+   "dial.seen": {
+    "dialect": 41.137783623807955,
+    "either": 28.006138331689137
+   },
+   "phone.test": 10.576691064103596,
+   "fleurs.lt.test": 25.63608776844071,
+   "cv.lt.test": 35.814403093281776
+  },
+  "S+D80-S.std/s1": {
+   "dial.test": {
+    "dialect": 38.133345322123816,
+    "standard": 27.581637694829986,
+    "either": 26.673560221193185
+   },
+   "dial.seen": {
+    "dialect": 41.32412583579963,
+    "either": 28.0938287843911
+   },
+   "phone.test": 10.60886350840505,
+   "fleurs.lt.test": 27.369281045751634,
+   "cv.lt.test": 34.34932334461092
+  },
+  "S+D80-Z.std/s1": {
+   "dial.test": {
+    "dialect": 37.43874477363665,
+    "standard": 27.366033328841574,
+    "either": 26.199253697792564
+   },
+   "dial.seen": {
+    "dialect": 40.83086703935109,
+    "either": 28.13767401074208
+   },
+   "phone.test": 10.643716989731628,
+   "fleurs.lt.test": 24.4281045751634,
+   "cv.lt.test": 32.43112614789754
+  },
+  "S+D80.dial/s1": {
+   "dial.test": {
+    "dialect": 31.27950366407409,
+    "standard": 36.29115572923685,
+    "either": 27.597446387627567
+   },
+   "dial.seen": {
+    "dialect": 34.17735394058972,
+    "either": 30.01205743724652
+   },
+   "phone.test": 10.801898174213786,
+   "fleurs.lt.test": 23.24346405228758,
+   "cv.lt.test": 25.773320444659255
+  },
+  "S+D80.dial/s2": {
+   "dial.test": {
+    "dialect": 31.313222137301622,
+    "standard": 37.17378610250191,
+    "either": 28.047026030661332
+   },
+   "dial.seen": {
+    "dialect": 33.607365998026964,
+    "either": 29.738024772552887
+   },
+   "phone.test": 10.718786026435025,
+   "fleurs.lt.test": 22.578197945845005,
+   "cv.lt.test": 27.987554374093765
+  },
+  "S+D80.std/s1": {
+   "dial.test": {
+    "dialect": 37.5219170075979,
+    "standard": 27.060593810357993,
+    "either": 26.05538821202176
+   },
+   "dial.seen": {
+    "dialect": 40.655486133947164,
+    "either": 27.315576016661186
+   },
+   "phone.test": 10.64907906378187,
+   "fleurs.lt.test": 26.873249299719888,
+   "cv.lt.test": 27.748912518124698
+  },
+  "S+D80.std/s2": {
+   "dial.test": {
+    "dialect": 37.44324057006699,
+    "standard": 26.824776535058167,
+    "either": 25.88454794766893
+   },
+   "dial.seen": {
+    "dialect": 40.76509919982462,
+    "either": 27.49095692206511
+   },
+   "phone.test": 10.474811657148985,
+   "fleurs.lt.test": 21.510270774976657,
+   "cv.lt.test": 23.849081681971967
+  },
+  "S+X80/s1": {
+   "dial.test": {
+    "dialect": 39.90244121746167,
+    "standard": 33.861114854242466,
+    "either": 32.178662950141614
+   },
+   "dial.seen": {
+    "dialect": 43.14370272936534,
+    "either": 33.49775293214951
+   },
+   "phone.test": 10.311268398616585,
+   "fleurs.lt.test": 24.94747899159664,
+   "cv.lt.test": 34.06839052682455
+  },
+  "S+X80/s2": {
+   "dial.test": {
+    "dialect": 40.17218900328193,
+    "standard": 34.33050352602974,
+    "either": 32.619251000314705
+   },
+   "dial.seen": {
+    "dialect": 43.220431875479555,
+    "either": 33.72794037049216
+   },
+   "phone.test": 10.378294324244617,
+   "fleurs.lt.test": 32.00280112044818,
+   "cv.lt.test": 40.608385693571776
+  },
+  "S/s1": {
+   "dial.test": {
+    "dialect": 42.10987726475745,
+    "standard": 36.39671203341868,
+    "either": 34.83343074225599
+   },
+   "dial.seen": {
+    "dialect": 45.06193138222076,
+    "either": 35.92020168804122
+   },
+   "phone.test": 10.759001581811845,
+   "fleurs.lt.test": 28.623949579831933,
+   "cv.lt.test": 35.201184146930885
+  },
+  "S/s2": {
+   "dial.test": {
+    "dialect": 41.12754574472868,
+    "standard": 35.23334680860621,
+    "either": 33.60158252034348
+   },
+   "dial.seen": {
+    "dialect": 44.163104242025646,
+    "either": 35.04329716102159
+   },
+   "phone.test": 10.456044397973136,
+   "fleurs.lt.test": 28.647292250233427,
+   "cv.lt.test": 44.73779603673272
+  }
+ },
+ "seed_noise": {
+  "dial.test:dialect": {
+   "diffs_s1_minus_s2": [
+    0.98,
+    -0.03,
+    -0.27,
+    0.08
+   ],
+   "pooled_seed_sd": 0.361
+  },
+  "dial.test:either": {
+   "diffs_s1_minus_s2": [
+    1.23,
+    -0.45,
+    -0.44,
+    0.17
+   ],
+   "pooled_seed_sd": 0.493
+  },
+  "phone.test:dialect": {
+   "diffs_s1_minus_s2": [
+    0.3,
+    0.08,
+    -0.07,
+    0.17
+   ],
+   "pooled_seed_sd": 0.129
+  },
+  "fleurs.lt.test:dialect": {
+   "diffs_s1_minus_s2": [
+    -0.02,
+    0.67,
+    -7.06,
+    5.36
+   ],
+   "pooled_seed_sd": 3.142
+  },
+  "cv.lt.test:dialect": {
+   "diffs_s1_minus_s2": [
+    -9.54,
+    -2.21,
+    -6.54,
+    3.9
+   ],
+   "pooled_seed_sd": 4.385
+  }
+ },
+ "RQ1_dose": {
+  "hours": [
+   0,
+   12.83,
+   25.43,
+   50.47,
+   82.3
+  ],
+  "dial.test_dialect": [
+   42.10987726475745,
+   38.07939576495976,
+   34.77273749044643,
+   32.76761228251585,
+   31.27950366407409
+  ],
+  "dial.test_either": [
+   34.83343074225599,
+   33.29586836308052,
+   30.28818055118464,
+   28.959672706019873,
+   27.597446387627567
+  ],
+  "phone.test": [
+   10.759001581811845,
+   10.611544545430172,
+   10.611544545430172,
+   10.485535805249471,
+   10.801898174213786
+  ],
+  "fleurs.lt.test": [
+   28.623949579831933,
+   24.317226890756302,
+   21.889589169000935,
+   23.220121381886088,
+   23.24346405228758
+  ],
+  "cv.lt.test": [
+   35.201184146930885,
+   30.352827452875786,
+   24.241783470275497,
+   29.32274045432576,
+   25.773320444659255
+  ],
+  "endpoint_S+D80.dial_minus_S": [
+   {
+    "diff": -10.83,
+    "ci95": [
+     -14.02,
+     -7.84
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": 0.04,
+    "ci95": [
+     -0.18,
+     0.27
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "phone.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -5.38,
+    "ci95": [
+     -6.0,
+     -4.77
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "fleurs.lt.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -9.43,
+    "ci95": [
+     -10.4,
+     -8.45
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "cv.lt.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -9.81,
+    "ci95": [
+     -12.83,
+     -6.8
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "dial.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": 0.26,
+    "ci95": [
+     0.06,
+     0.47
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "phone.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -6.07,
+    "ci95": [
+     -6.73,
+     -5.42
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "fleurs.lt.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -16.75,
+    "ci95": [
+     -18.2,
+     -15.26
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "cv.lt.test.v1",
+    "view": "dialect"
+   }
+  ]
+ },
+ "RQ2_control": [
+  {
+   "diff": -8.62,
+   "ci95": [
+    -11.52,
+    -5.84
+   ],
+   "a": "S+D80.dial/s1",
+   "b": "S+X80/s1",
+   "test": "dial.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -4.58,
+   "ci95": [
+    -6.75,
+    -2.42
+   ],
+   "a": "S+D80.dial/s1",
+   "b": "S+X80/s1",
+   "test": "dial.test.v1",
+   "view": "either"
+  },
+  {
+   "diff": 0.49,
+   "ci95": [
+    0.28,
+    0.7
+   ],
+   "a": "S+D80.dial/s1",
+   "b": "S+X80/s1",
+   "test": "phone.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -1.7,
+   "ci95": [
+    -2.28,
+    -1.12
+   ],
+   "a": "S+D80.dial/s1",
+   "b": "S+X80/s1",
+   "test": "fleurs.lt.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -8.3,
+   "ci95": [
+    -9.31,
+    -7.25
+   ],
+   "a": "S+D80.dial/s1",
+   "b": "S+X80/s1",
+   "test": "cv.lt.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -8.86,
+   "ci95": [
+    -12.02,
+    -5.78
+   ],
+   "a": "S+D80.dial/s2",
+   "b": "S+X80/s2",
+   "test": "dial.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -4.57,
+   "ci95": [
+    -7.01,
+    -2.16
+   ],
+   "a": "S+D80.dial/s2",
+   "b": "S+X80/s2",
+   "test": "dial.test.v1",
+   "view": "either"
+  },
+  {
+   "diff": 0.34,
+   "ci95": [
+    0.13,
+    0.55
+   ],
+   "a": "S+D80.dial/s2",
+   "b": "S+X80/s2",
+   "test": "phone.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -9.42,
+   "ci95": [
+    -10.43,
+    -8.47
+   ],
+   "a": "S+D80.dial/s2",
+   "b": "S+X80/s2",
+   "test": "fleurs.lt.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -12.62,
+   "ci95": [
+    -14.29,
+    -11.01
+   ],
+   "a": "S+D80.dial/s2",
+   "b": "S+X80/s2",
+   "test": "cv.lt.test.v1",
+   "view": "dialect"
+  }
+ ],
+ "RQ2_X80_minus_S": [
+  {
+   "diff": -2.21,
+   "ci95": [
+    -2.81,
+    -1.61
+   ],
+   "a": "S+X80/s1",
+   "b": "S/s1",
+   "test": "dial.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -0.45,
+   "ci95": [
+    -0.66,
+    -0.23
+   ],
+   "a": "S+X80/s1",
+   "b": "S/s1",
+   "test": "phone.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -3.68,
+   "ci95": [
+    -4.38,
+    -3.0
+   ],
+   "a": "S+X80/s1",
+   "b": "S/s1",
+   "test": "fleurs.lt.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -1.13,
+   "ci95": [
+    -2.22,
+    -0.04
+   ],
+   "a": "S+X80/s1",
+   "b": "S/s1",
+   "test": "cv.lt.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -0.96,
+   "ci95": [
+    -1.66,
+    -0.51
+   ],
+   "a": "S+X80/s2",
+   "b": "S/s2",
+   "test": "dial.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -0.08,
+   "ci95": [
+    -0.28,
+    0.11
+   ],
+   "a": "S+X80/s2",
+   "b": "S/s2",
+   "test": "phone.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": 3.36,
+   "ci95": [
+    2.46,
+    4.3
+   ],
+   "a": "S+X80/s2",
+   "b": "S/s2",
+   "test": "fleurs.lt.test.v1",
+   "view": "dialect"
+  },
+  {
+   "diff": -4.13,
+   "ci95": [
+    -5.85,
+    -2.28
+   ],
+   "a": "S+X80/s2",
+   "b": "S/s2",
+   "test": "cv.lt.test.v1",
+   "view": "dialect"
+  }
+ ],
+ "RQ3": {
+  "a_std_targets_gain_either": [
+   {
+    "diff": -8.78,
+    "ci95": [
+     -10.38,
+     -7.15
+    ],
+    "a": "S+D80.std/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "either"
+   },
+   {
+    "diff": -7.72,
+    "ci95": [
+     -9.2,
+     -6.04
+    ],
+    "a": "S+D80.std/s2",
+    "b": "S/s2",
+    "test": "dial.test.v1",
+    "view": "either"
+   }
+  ],
+  "b_dial_model_by_view": {
+   "S+D80.dial/s1": {
+    "dialect": 31.27950366407409,
+    "standard": 36.29115572923685,
+    "either": 27.597446387627567
+   },
+   "S+D80.dial/s2": {
+    "dialect": 31.313222137301622,
+    "standard": 37.17378610250191,
+    "either": 28.047026030661332
+   }
+  },
+  "b_gain_over_S_by_view": [
+   {
+    "diff": -10.83,
+    "ci95": [
+     -14.02,
+     -7.84
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -0.11,
+    "ci95": [
+     -1.64,
+     1.5
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "standard"
+   },
+   {
+    "diff": -7.24,
+    "ci95": [
+     -9.79,
+     -4.8
+    ],
+    "a": "S+D80.dial/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "either"
+   },
+   {
+    "diff": -9.81,
+    "ci95": [
+     -12.83,
+     -6.8
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "dial.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": 1.94,
+    "ci95": [
+     0.15,
+     3.74
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "dial.test.v1",
+    "view": "standard"
+   },
+   {
+    "diff": -5.55,
+    "ci95": [
+     -7.82,
+     -3.26
+    ],
+    "a": "S+D80.dial/s2",
+    "b": "S/s2",
+    "test": "dial.test.v1",
+    "view": "either"
+   }
+  ],
+  "c_std_minus_dial_on_standard_tests": [
+   {
+    "diff": -0.15,
+    "ci95": [
+     -0.35,
+     0.05
+    ],
+    "a": "S+D80.std/s1",
+    "b": "S+D80.dial/s1",
+    "test": "phone.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": 3.63,
+    "ci95": [
+     3.0,
+     4.25
+    ],
+    "a": "S+D80.std/s1",
+    "b": "S+D80.dial/s1",
+    "test": "fleurs.lt.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": 1.98,
+    "ci95": [
+     1.08,
+     2.91
+    ],
+    "a": "S+D80.std/s1",
+    "b": "S+D80.dial/s1",
+    "test": "cv.lt.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -0.24,
+    "ci95": [
+     -0.44,
+     -0.04
+    ],
+    "a": "S+D80.std/s2",
+    "b": "S+D80.dial/s2",
+    "test": "phone.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -1.07,
+    "ci95": [
+     -1.54,
+     -0.59
+    ],
+    "a": "S+D80.std/s2",
+    "b": "S+D80.dial/s2",
+    "test": "fleurs.lt.test.v1",
+    "view": "dialect"
+   },
+   {
+    "diff": -4.14,
+    "ci95": [
+     -4.94,
+     -3.32
+    ],
+    "a": "S+D80.std/s2",
+    "b": "S+D80.dial/s2",
+    "test": "cv.lt.test.v1",
+    "view": "dialect"
+   }
+  ],
+  "std_vs_dial_either_dialtest": [
+   {
+    "diff": -1.54,
+    "ci95": [
+     -2.76,
+     -0.34
+    ],
+    "a": "S+D80.std/s1",
+    "b": "S+D80.dial/s1",
+    "test": "dial.test.v1",
+    "view": "either"
+   },
+   {
+    "diff": -2.16,
+    "ci95": [
+     -3.2,
+     -1.06
+    ],
+    "a": "S+D80.std/s2",
+    "b": "S+D80.dial/s2",
+    "test": "dial.test.v1",
+    "view": "either"
+   }
+  ],
+  "std_dose_either": {
+   "S/s1": 34.83343074225599,
+   "S+D25.std/s1": 27.909904239536033,
+   "S+D50.std/s1": 26.39482084251225,
+   "S+D80.std/s1": 26.05538821202176
+  }
+ },
+ "RQ4_region": {
+  "A": {
+   "left_out": 26.55227312931187,
+   "all_regions_D80": 24.632938262869274,
+   "all_regions_D50": 25.287457986909605,
+   "no_dialect_S": 34.5214930125597,
+   "vs_D80": {
+    "diff": 1.92,
+    "ci95": [
+     1.54,
+     2.12
+    ],
+    "a": "S+D80-A.std/s1",
+    "b": "S+D80.std/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "A"
+   },
+   "vs_S": {
+    "diff": -7.97,
+    "ci95": [
+     -9.44,
+     -4.89
+    ],
+    "a": "S+D80-A.std/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "A"
+   }
+  },
+  "D": {
+   "left_out": 30.77191148283673,
+   "all_regions_D80": 28.585119358773305,
+   "all_regions_D50": 28.332462101411394,
+   "no_dialect_S": 40.12894232444677,
+   "vs_D80": {
+    "diff": 2.19,
+    "ci95": [
+     1.31,
+     2.59
+    ],
+    "a": "S+D80-D.std/s1",
+    "b": "S+D80.std/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "D"
+   },
+   "vs_S": {
+    "diff": -9.36,
+    "ci95": [
+     -10.57,
+     -8.13
+    ],
+    "a": "S+D80-D.std/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "D"
+   }
+  },
+  "S": {
+   "left_out": 22.373445608538137,
+   "all_regions_D80": 21.639087437579555,
+   "all_regions_D50": 21.688044648976796,
+   "no_dialect_S": 27.464995593850976,
+   "vs_D80": {
+    "diff": 0.73,
+    "ci95": [
+     0.49,
+     1.01
+    ],
+    "a": "S+D80-S.std/s1",
+    "b": "S+D80.std/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "S"
+   },
+   "vs_S": {
+    "diff": -5.09,
+    "ci95": [
+     -8.09,
+     -2.94
+    ],
+    "a": "S+D80-S.std/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "S"
+   }
+  },
+  "Z": {
+   "left_out": 29.89816346070154,
+   "all_regions_D80": 28.853686134563496,
+   "all_regions_D50": 29.73278788406302,
+   "no_dialect_S": 36.40003481591087,
+   "vs_D80": {
+    "diff": 1.04,
+    "ci95": [
+     -0.16,
+     1.74
+    ],
+    "a": "S+D80-Z.std/s1",
+    "b": "S+D80.std/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "Z"
+   },
+   "vs_S": {
+    "diff": -6.5,
+    "ci95": [
+     -10.88,
+     -4.72
+    ],
+    "a": "S+D80-Z.std/s1",
+    "b": "S/s1",
+    "test": "dial.test.v1",
+    "view": "either",
+    "region": "Z"
+   }
+  }
+ },
+ "RQ5_seen_minus_unseen_either": {
+  "D80.dial/s1": 0.81,
+  "D80.std/s1": 0.77,
+  "S+D12.dial/s1": 1.5,
+  "S+D25.dial/s1": 2.3,
+  "S+D25.std/s1": 1.76,
+  "S+D50.dial/s1": 2.36,
+  "S+D50.std/s1": 1.55,
+  "S+D80-A.std/s1": 1.77,
+  "S+D80-D.std/s1": 0.91,
+  "S+D80-S.std/s1": 1.42,
+  "S+D80-Z.std/s1": 1.94,
+  "S+D80.dial/s1": 2.41,
+  "S+D80.dial/s2": 1.69,
+  "S+D80.std/s1": 1.26,
+  "S+D80.std/s2": 1.61,
+  "S+X80/s1": 1.32,
+  "S+X80/s2": 1.11,
+  "S/s1": 1.09,
+  "S/s2": 1.44
+ }
+}

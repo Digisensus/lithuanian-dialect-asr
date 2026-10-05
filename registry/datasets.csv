@@ -1,0 +1,4 @@
+dataset_id,source,version,local_path,hf_repo,n_clips,hours,license
+liepa3.dial,LIEPA-3 dialect recordings,v1,../lithuanian-dialect-speech-liepa-3-100h-punctuated,Digisensus/lithuanian-dialect-speech-liepa-3-100h-punctuated,111970,100.5,see LIEPA-3 licence
+liepa3.phone,LIEPA-3 phone speech,v1,,Digisensus/lithuanian-phone-speech-liepa-3-429h-punctuated,,429,see LIEPA-3 licence
+liepa3.xspon,"LIEPA-3 spontaneous speech, non-phone sources",v1,../liepa3,,,,see LIEPA-3 licence

@@ -1,0 +1,46 @@
+{
+ "seed": 2026,
+ "dial.test": {
+  "clips": 5607,
+  "hours": 5.01,
+  "speakers": 12
+ },
+ "dial.excluded": {
+  "clips": 11067,
+  "hours": 9.5,
+  "speakers": 20
+ },
+ "dial.dev": {
+  "clips": 3227,
+  "hours": 2.67,
+  "speakers": 8
+ },
+ "dial.train": {
+  "clips": 90925,
+  "hours": 82.3,
+  "speakers": 97
+ },
+ "dial.seen": {
+  "clips": 1144,
+  "hours": 1.01,
+  "speakers": 12
+ },
+ "doses": {
+  "D12": {
+   "speakers": 16,
+   "hours": 12.83
+  },
+  "D25": {
+   "speakers": 31,
+   "hours": 25.43
+  },
+  "D50": {
+   "speakers": 61,
+   "hours": 50.47
+  },
+  "D80": {
+   "speakers": 97,
+   "hours": 82.3
+  }
+ }
+}

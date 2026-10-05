@@ -1,0 +1,16 @@
+recipe_id,train_splits,layer_per_dataset,hours_per_part,sampling_seed,recipe_sha256
+S,phone.train.v1,phone.spoken.v1,S=420.17,2026,17be07606972605d0ca0027a53234f684190c8a5862835e79b143903c8dbaaf2
+S+D12.dial,phone.train.v1;dial.train.v1:D12,phone.spoken.v1;dial.dialect.v1,S=420.17;D12=12.83,2026,33ee37187f5cfd5a61e3b79d570488e28274e72837e716aa749ad33a65294564
+S+D25.dial,phone.train.v1;dial.train.v1:D25,phone.spoken.v1;dial.dialect.v1,S=420.17;D25=25.43,2026,728379b62f56a801ff2e4e404a737dddbc2374bab8becc8e8a546ef2a70febde
+S+D50.dial,phone.train.v1;dial.train.v1:D50,phone.spoken.v1;dial.dialect.v1,S=420.17;D50=50.47,2026,63bd46b401019d327ff6d469ac8eba70b9388094d71b9f7ea0408066bbdfe572
+S+D80.dial,phone.train.v1;dial.train.v1:D80,phone.spoken.v1;dial.dialect.v1,S=420.17;D80=82.3,2026,ddff41c02609347f7046e1684648fc3953ac63af36c93640358e7835dd5efd79
+S+X80,phone.train.v1;xspon.train.v1,phone.spoken.v1;xspon.spoken.v1,S=420.17;X80=82.36,2026,ea076fed313af5916323ff2082912aecc2dd824edb8b89e11785780879b82352
+S+D25.std,phone.train.v1;dial.train.v1:D25,phone.spoken.v1;dial.standard.v2,S=420.17;D25=25.43,2026,d5e7186c3272ac072492238b1ed53f38ede87df4493aeeb729730c6c69cce762
+S+D50.std,phone.train.v1;dial.train.v1:D50,phone.spoken.v1;dial.standard.v2,S=420.17;D50=50.47,2026,4d4df659ff80960324e274ec3d68664f12094a9246fa63dbf3ff9fb4003befe5
+S+D80.std,phone.train.v1;dial.train.v1:D80,phone.spoken.v1;dial.standard.v2,S=420.17;D80=82.3,2026,5d5bed00576e36b08b5d0a5a66ca6e5ba23156626bc730b1d5e02b5b3fce23bd
+D80.dial,dial.train.v1:D80,dial.dialect.v1,D80=82.3,2026,02b9e15dfd439f1504d6142b8f9765c9e16b8205ea6797ea530b9a8b8d03f13c
+D80.std,dial.train.v1:D80,dial.standard.v2,D80=82.3,2026,649a758d3b2fe18316bbeb1f994a8e36f7ac6ebb431864cd700ceb2012f63e11
+S+D80-A.std,phone.train.v1;dial.train.v1:D80-A,phone.spoken.v1;dial.standard.v2,S=420.17;D80-A=47.14,2026,a37e0424c0f7b3a4308ced9df5fcaf64eab64b707ff21a22b8b9cc6db4a0e69e
+S+D80-D.std,phone.train.v1;dial.train.v1:D80-D,phone.spoken.v1;dial.standard.v2,S=420.17;D80-D=68.01,2026,e781034a9316b81b374251088701c5a9c50ead23dbdac124e59a6ca29350730f
+S+D80-S.std,phone.train.v1;dial.train.v1:D80-S,phone.spoken.v1;dial.standard.v2,S=420.17;D80-S=72.97,2026,828fe49f722170933fa5ef9b23fd6da28d777cb71c087e1bdc779db8c0832492
+S+D80-Z.std,phone.train.v1;dial.train.v1:D80-Z,phone.spoken.v1;dial.standard.v2,S=420.17;D80-Z=58.78,2026,4773e163b4a88983cee2155dbbe5d0e05933ca3bec689413040850bca26c1d2d

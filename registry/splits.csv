@@ -1,0 +1,19 @@
+split_id,dataset_id,file,n_clips,hours,n_speakers,sha256,frozen_at,builder_commit
+dial.test.v1,liepa3.dial,splits/v1/dial.test.txt,5607,5.01,12,3c80cf278b85cfc4c01aa1766456833f206deeb7727e8e628f264e2c12fbd7d5,2026-09-24,code/ltd26/build_splits.py --seed 2026
+dial.dev.v1,liepa3.dial,splits/v1/dial.dev.txt,3227,2.67,8,6984e64f3e66303e26898b45a648f91a71fec2524cf0b0e33265ff4145cd7fea,2026-09-24,code/ltd26/build_splits.py --seed 2026
+dial.seen.v1,liepa3.dial,splits/v1/dial.seen.txt,1144,1.01,12,df1ac7f8cb338ddce417a0574908178e5c7cc6dde83ec055d268cb422be6be34,2026-09-24,code/ltd26/build_splits.py --seed 2026
+dial.train.v1,liepa3.dial,splits/v1/dial.train.txt,90925,82.3,97,7cc266fbd0e41b8e262d43d7f4274c1205474120af62d2008ef8eca3154897b5,2026-09-24,code/ltd26/build_splits.py --seed 2026
+dial.excluded.v1,liepa3.dial,splits/v1/dial.excluded.txt,11067,9.5,20,fbb5bf3d487dfabd7c917614b0dd8ae803c4f9e90ecb3195df07531848e7768f,2026-09-24,code/ltd26/build_splits.py --seed 2026
+phone.test.v1,liepa3.phone,splits/v1/phone.test.txt,4206,4.36,,a791179dbfb8ca7213960ad83bb4574f45965046dfc646e1f0a1523c326ac643,2026-09-26,code/ltd26/phone_splits.py (published sha1(id) mod 100 split)
+phone.dev.v1,liepa3.phone,splits/v1/phone.dev.txt,4153,4.3,,17d5970066862262ed3d3577555ea8351c42eb9f4057e438f5d0f9daa2b111f1,2026-09-26,code/ltd26/phone_splits.py (published sha1(id) mod 100 split)
+phone.train.v1,liepa3.phone,splits/v1/phone.train.txt,408593,420.17,,c1eb265eb244a7683a690bb4c75c114907a77778bfb04defba21254b3c17ec43,2026-09-26,code/ltd26/phone_splits.py (published sha1(id) mod 100 split)
+phone.excluded.v1,liepa3.phone,splits/v1/phone.excluded.txt,48,0.07,,a92d49a3e8b6af8996305056575b2953a1bd870c842718f9a10a6194ae81d2ca,2026-09-26,code/ltd26/phone_splits.py (published sha1(id) mod 100 split)
+xspon.train.v1,liepa3.xspon,splits/v1/xspon.train.txt,89892,82.36,,a643a5ef1aaf79e7253e35e679f23bc15fac4c191ee468ef7f144d2689bb0dbc,2026-09-26,code/ltd26/build_xpool.py --seed 2026
+dial.D12.v1,liepa3.dial,splits/v1/dial.D12.txt,14004,12.83,16,f1fe6672c4669eb09b2ced261c520cf4c92c4cf3c831b1c09ec75cf3485ac36c,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D25.v1,liepa3.dial,splits/v1/dial.D25.txt,27880,25.43,31,b5640f2f2c446e88ffce573691777d988e966f96e38bc772eeb5eb6571092743,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D50.v1,liepa3.dial,splits/v1/dial.D50.txt,54783,50.47,61,c3803351a5c21dfb6f521df4c20e67d66b73ec5e8d14e2e9100a36214598e4f2,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D80.v1,liepa3.dial,splits/v1/dial.D80.txt,90925,82.3,97,7cc266fbd0e41b8e262d43d7f4274c1205474120af62d2008ef8eca3154897b5,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D80-A.v1,liepa3.dial,splits/v1/dial.D80-A.txt,49321,47.14,57,d020ee24d1b0a99fdab9674da61ca4433f19f3a7326d0da5d3447b6341a2846a,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D80-D.v1,liepa3.dial,splits/v1/dial.D80-D.txt,76148,68.01,77,c56b76f153ec40f61fa27bcc743a202fe4b51087465ca136a8f03d4e200e7829,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D80-S.v1,liepa3.dial,splits/v1/dial.D80-S.txt,81386,72.97,84,c04a981f6e4b300c3cfb898a66e725f642646c6288d74dc20db0ad9bff14c6e5,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)
+dial.D80-Z.v1,liepa3.dial,splits/v1/dial.D80-Z.txt,65920,58.78,73,dd6339e5d01629310ed432ed490e2089633915bad409aa36e1f635b4558cf31a,2026-09-26,code/ltd26/build_recipes.py (dose_order prefixes)

@@ -1,0 +1,4 @@
+layer_id,dataset_id,producer,parent_layer,file,sha256,notes
+dial.dialect.v1,liepa3.dial,rule:LIEPA-3 text_phonetic folded (v1),,HF dataset column text_normalized,,"dialect spelling, spoken form"
+dial.standard.v1,liepa3.dial,llm + word map,dial.dialect.v1,layers/dial.standard.v1.jsonl,9504eee1a59f5648dc17c7ebfe16eaa782e4237bc552c9049cfba10a52e197f6,superseded by v2
+dial.standard.v2,liepa3.dial,llm per clip + word map,dial.dialect.v1,layers/dial.standard.v2.jsonl,cea59e660d1b48f0c9f2556e832551a700e344baf2234d6d6bd81ff60d833a46,final

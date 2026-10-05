@@ -1,0 +1,29 @@
+{
+ "seed": 2026,
+ "clips": 89892,
+ "hours": 82.36,
+ "target_hours": 82.3,
+ "hours_by_gender_age": {
+  "female/18-60": 27.7,
+  "female/60+": 38.73,
+  "male/18-60": 7.08,
+  "male/60+": 8.85
+ },
+ "target_by_gender_age": {
+  "female/18-60": 27.69,
+  "female/60+": 38.72,
+  "male/18-60": 7.06,
+  "male/60+": 8.84
+ },
+ "hours_by_source": {
+  "dictaphone": 6.75,
+  "radio": 75.58,
+  "tv": 0.03
+ },
+ "cell_shortfall_filled_from_nearest_bin_h": {
+  "female/60+/0.5-1s": 0.327
+ },
+ "candidates_skipped": {
+  "repeats_phone_test_dev_transcript": 7
+ }
+}

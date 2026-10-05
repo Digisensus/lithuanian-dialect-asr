@@ -1,0 +1,28 @@
+{
+ "recipe_id": "S+D50.std",
+ "parts": [
+  {
+   "code": "S",
+   "split": "phone.train.v1",
+   "file": "splits/v1/phone.train.txt",
+   "layer": "phone.spoken.v1",
+   "hours": 420.17
+  },
+  {
+   "code": "D50",
+   "split": "dial.train.v1",
+   "subset": "D50",
+   "file": "splits/v1/dial.D50.txt",
+   "layer": "dial.standard.v2",
+   "speakers": 61,
+   "clips": 54783,
+   "hours": 50.47
+  }
+ ],
+ "train_id_files": [
+  "splits/v1/phone.train.txt",
+  "splits/v1/dial.D50.txt"
+ ],
+ "sampling_seed": 2026,
+ "builder": "code/ltd26/build_recipes.py"
+}

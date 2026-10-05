@@ -1,0 +1,19 @@
+{
+ "source": "Digisensus/lithuanian-phone-speech-liepa-3-429h-punctuated (published split, sha1(id) mod 100)",
+ "clips": {
+  "test": 4206,
+  "train": 408593,
+  "excluded": 48,
+  "dev": 4153
+ },
+ "hours": {
+  "test": 4.36,
+  "train": 420.17,
+  "excluded": 0.07,
+  "dev": 4.3
+ },
+ "train_moved_to_excluded_(same_audio_or_transcript_as_test_dev)": 48,
+ "identical_audio_pairs_all_splits": 0,
+ "test_dev_clips_with_transcript_(>=6 words)_also_in_train": 48,
+ "speaker_disjoint": false
+}

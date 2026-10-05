@@ -1,0 +1,28 @@
+{
+ "recipe_id": "S+D80-Z.std",
+ "parts": [
+  {
+   "code": "S",
+   "split": "phone.train.v1",
+   "file": "splits/v1/phone.train.txt",
+   "layer": "phone.spoken.v1",
+   "hours": 420.17
+  },
+  {
+   "code": "D80-Z",
+   "split": "dial.train.v1",
+   "subset": "D80-Z",
+   "file": "splits/v1/dial.D80-Z.txt",
+   "layer": "dial.standard.v2",
+   "speakers": 73,
+   "clips": 65920,
+   "hours": 58.78
+  }
+ ],
+ "train_id_files": [
+  "splits/v1/phone.train.txt",
+  "splits/v1/dial.D80-Z.txt"
+ ],
+ "sampling_seed": 2026,
+ "builder": "code/ltd26/build_recipes.py"
+}

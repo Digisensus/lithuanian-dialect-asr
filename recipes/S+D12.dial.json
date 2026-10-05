@@ -1,0 +1,28 @@
+{
+ "recipe_id": "S+D12.dial",
+ "parts": [
+  {
+   "code": "S",
+   "split": "phone.train.v1",
+   "file": "splits/v1/phone.train.txt",
+   "layer": "phone.spoken.v1",
+   "hours": 420.17
+  },
+  {
+   "code": "D12",
+   "split": "dial.train.v1",
+   "subset": "D12",
+   "file": "splits/v1/dial.D12.txt",
+   "layer": "dial.dialect.v1",
+   "speakers": 16,
+   "clips": 14004,
+   "hours": 12.83
+  }
+ ],
+ "train_id_files": [
+  "splits/v1/phone.train.txt",
+  "splits/v1/dial.D12.txt"
+ ],
+ "sampling_seed": 2026,
+ "builder": "code/ltd26/build_recipes.py"
+}

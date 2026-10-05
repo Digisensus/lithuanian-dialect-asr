@@ -1,0 +1,17 @@
+{
+ "recipe_id": "S",
+ "parts": [
+  {
+   "code": "S",
+   "split": "phone.train.v1",
+   "file": "splits/v1/phone.train.txt",
+   "layer": "phone.spoken.v1",
+   "hours": 420.17
+  }
+ ],
+ "train_id_files": [
+  "splits/v1/phone.train.txt"
+ ],
+ "sampling_seed": 2026,
+ "builder": "code/ltd26/build_recipes.py"
+}

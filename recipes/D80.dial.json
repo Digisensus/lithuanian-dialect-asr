@@ -1,0 +1,20 @@
+{
+ "recipe_id": "D80.dial",
+ "parts": [
+  {
+   "code": "D80",
+   "split": "dial.train.v1",
+   "subset": "D80",
+   "file": "splits/v1/dial.D80.txt",
+   "layer": "dial.dialect.v1",
+   "speakers": 97,
+   "clips": 90925,
+   "hours": 82.3
+  }
+ ],
+ "train_id_files": [
+  "splits/v1/dial.D80.txt"
+ ],
+ "sampling_seed": 2026,
+ "builder": "code/ltd26/build_recipes.py"
+}

@@ -1,0 +1,25 @@
+{
+ "recipe_id": "S+X80",
+ "parts": [
+  {
+   "code": "S",
+   "split": "phone.train.v1",
+   "file": "splits/v1/phone.train.txt",
+   "layer": "phone.spoken.v1",
+   "hours": 420.17
+  },
+  {
+   "code": "X80",
+   "split": "xspon.train.v1",
+   "file": "splits/v1/xspon.train.txt",
+   "layer": "xspon.spoken.v1",
+   "hours": 82.36
+  }
+ ],
+ "train_id_files": [
+  "splits/v1/phone.train.txt",
+  "splits/v1/xspon.train.txt"
+ ],
+ "sampling_seed": 2026,
+ "builder": "code/ltd26/build_recipes.py"
+}

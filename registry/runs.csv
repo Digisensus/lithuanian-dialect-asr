@@ -1,0 +1,47 @@
+run_id,recipe_id,seed,config_sha256,code_commit,hub_artifact_id,updates,epochs,selected_step,status,notes
+ltd26/smoke/S+D12.dial/a1,S+D12.dial,1,46249fbe66792343729f216dfbeab6573be49762b21242f2e0cf5f4f8592d43a,,,,,,canceled,smoke test
+ltd26/smoke/S+D12.dial/a2,S+D12.dial,1,46249fbe66792343729f216dfbeab6573be49762b21242f2e0cf5f4f8592d43a,,art-593e412f,50,,,completed,smoke test
+ltd26/S/s1/a1,S,1,7efd05166d808b910c896f6b00dec8774782f9cb4dd313ac8a0aec8527c6b124,,,6750,,,failed,failed at step 6750 (2026-09-27 01:42 UTC): infrastructure error
+ltd26/S+D80.dial/s1/a1,S+D80.dial,1,7efd05166d808b910c896f6b00dec8774782f9cb4dd313ac8a0aec8527c6b124,,,3251,,,failed,failed at step 3251 (2026-09-27 04:53 UTC): infrastructure error
+ltd26/S+X80/s1/a1,S+X80,1,7efd05166d808b910c896f6b00dec8774782f9cb4dd313ac8a0aec8527c6b124,,,,,,lost,lost (infrastructure error)
+ltd26/S/s1/a2,S,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-123a2667,10000,,,completed,rerun after attempt a1
+ltd26/S+D12.dial/s1/a1,S+D12.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-6ab2434f,10000,,,completed,
+ltd26/S+D25.dial/s1/a1,S+D25.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-278625be,10000,,,completed,
+ltd26/S+D50.dial/s1/a1,S+D50.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-9ca053d3,10000,,,completed,
+ltd26/S+D80.dial/s1/a2,S+D80.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,,10000,,,failed,"trained 10,000 updates (dev 20.18), then failed in the final dev evaluation before the model was saved -> no artifact"
+ltd26/S+D80.dial/s1/a3,S+D80.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-fb203ad4,10000,,,completed,rerun after attempt a2
+ltd26/S+X80/s1/a2,S+X80,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-d19e1966,10000,,,completed,rerun after attempt a1
+ltd26/S+D25.std/s1/a1,S+D25.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-a56e2d77,10000,,,completed,
+ltd26/S+D50.std/s1/a1,S+D50.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-9c70b343,10000,,,completed,
+ltd26/S+D80.std/s1/a1,S+D80.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-ee27a42f,10000,,,completed,
+ltd26/D80.dial/s1/a1,D80.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,,,,,lost,lost (infrastructure error)
+ltd26/D80.dial/s1/a2,D80.dial,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-ea1f9de7,10000,,,completed,rerun after attempt a1
+ltd26/D80.std/s1/a1,D80.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-f83e0769,10000,,,completed,
+ltd26/S+D80-A.std/s1/a1,S+D80-A.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-1e558174,10000,,,completed,
+ltd26/S+D80-D.std/s1/a1,S+D80-D.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-67cefb25,10000,,,completed,
+ltd26/S+D80-S.std/s1/a1,S+D80-S.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,,,,,dropped,"2026-09-30 10:17: dataset fetch failed (infrastructure error); dropped 2026-09-30 (18-run design: 2 seeds for the key recipes, E5 without Suvalkija)"
+ltd26/S+D80-Z.std/s1/a1,S+D80-Z.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,,1675,,,failed,failed at step 1675 (2026-09-30 08:08): infrastructure error
+ltd26/S+D80-Z.std/s1/a2,S+D80-Z.std,1,df5d64d822fb920b7f757004bcd4d265d291b955f590c7d456e7ccd96b8e0af5,,art-ae7a7a7f,10000,,,completed,rerun after attempt a1
+ltd26/S/s2/a1,S,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,art-c502abfe,10000,,,completed,
+ltd26/S+D12.dial/s2/a1,S+D12.dial,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D25.dial/s2/a1,S+D25.dial,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D50.dial/s2/a1,S+D50.dial,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D80.dial/s2/a1,S+D80.dial,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,art-3610b5e9,10000,,,completed,
+ltd26/S+X80/s2/a1,S+X80,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,art-0938debd,10000,,,completed,
+ltd26/S+D25.std/s2/a1,S+D25.std,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D50.std/s2/a1,S+D50.std,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D80.std/s2/a1,S+D80.std,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,art-70c485f7,10000,,,completed,
+ltd26/D80.dial/s2/a1,D80.dial,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/D80.std/s2/a1,D80.std,2,609ab82821ca22b615f37589efef6f364605eeb4cb298a41fbbdc35a34170e3d,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S/s3/a1,S,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-30 (18-run design: 2 seeds for the key recipes, E5 without Suvalkija)"
+ltd26/S+D12.dial/s3/a1,S+D12.dial,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D25.dial/s3/a1,S+D25.dial,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D50.dial/s3/a1,S+D50.dial,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D80.dial/s3/a1,S+D80.dial,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-30 (18-run design: 2 seeds for the key recipes, E5 without Suvalkija)"
+ltd26/S+X80/s3/a1,S+X80,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-30 (18-run design: 2 seeds for the key recipes, E5 without Suvalkija)"
+ltd26/S+D25.std/s3/a1,S+D25.std,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D50.std/s3/a1,S+D50.std,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D80.std/s3/a1,S+D80.std,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-30 (18-run design: 2 seeds for the key recipes, E5 without Suvalkija)"
+ltd26/D80.dial/s3/a1,D80.dial,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/D80.std/s3/a1,D80.std,3,593fbc38ff254d8b97ff62e742ee6c0315b3d0f024fcdb758a43ac1126542dfd,,,,,,dropped,"dropped 2026-09-29 (reduced design: seeds 2-3 only for S, S+D80.dial, S+X80, S+D80.std)"
+ltd26/S+D80-S.std/s1/a2,S+D80-S.std,1,6e3132a3a48d9da19a8958592683eec0a02139b1ebeb332c4d183e6dd511d615,,art-e586a0bd,10000,,,completed,"reinstated 2026-10-03, reverses the 2026-09-30 drop; config_sha256 differs from df5d64d8 only by the hub retry policy max_attempts=3 (training spec identical)"

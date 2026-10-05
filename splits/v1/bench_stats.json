@@ -1,0 +1,9 @@
+{
+ "source": "clip durations recorded at import (bench_import.py, 2026-10-01)",
+ "fleurs.lt.test": {
+  "hours": 2.9685
+ },
+ "cv.lt.test": {
+  "hours": 7.1484
+ }
+}
